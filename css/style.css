@@ -272,6 +272,12 @@ a {
   padding: 10px 32px;
 }
 
+.is-hidden{
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
+
 
 .backdrop 
 /* .is-hidden */
@@ -316,11 +322,9 @@ transform: translate(-50%, -50%);
   fill: var(--black);
 }
 
-
-.is-hidden{
-  opacity:0;
-  visibility:hidden;
-  pointer-events:none;
+.hero-modal-close:hover,
+.hero-modal-close:focus{
+ border-color: var(--accent-color); 
 }
 
 
