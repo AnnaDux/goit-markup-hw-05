@@ -73,6 +73,11 @@ a {
   overflow: hidden;
 }
 
+.is-hidden{
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
 .container {
   /* outline: 2px solid purple;   */
   max-width: 1200px;
@@ -300,11 +305,6 @@ a {
 
 }
 
-.is-hidden{
-  opacity:0;
-  visibility:hidden;
-  pointer-events:none;
-}
 
 
 .backdrop 
