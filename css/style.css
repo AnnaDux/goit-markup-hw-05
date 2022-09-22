@@ -920,3 +920,52 @@ margin-bottom: 20px;
   background-color: var(--accent-color);
 }
 
+
+.footer-subscribe-form{
+  padding-top: 72px;
+  padding-left: 93px;
+  padding-bottom: 94px;
+}
+
+.subscribe-form-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--bg-white);
+margin-bottom: 20px;
+}
+
+.container-for-flex{
+  display: flex;
+}
+
+
+
+.email-input-form{
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.footer-send-button{
+width: 200px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+padding: 10px 28px;
+color: var(--bg-white);
+fill: var(--bg-white);
+}
+
+.button-text{
+  margin-right: 10px;
+}
